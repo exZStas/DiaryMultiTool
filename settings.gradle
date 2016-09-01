@@ -1,0 +1,4 @@
+rootProject.name = 'DiaryMultiTool'
+include 'frontend'
+include 'backend'
+

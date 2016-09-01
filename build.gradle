@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        // place for add gradle plugins
+    }
+}
+
+allprojects  {
+
+}
+
+subprojects {
+    apply plugin: 'java'
+
+
+//    tasks.withType(JavaCompile) {
+//        options.encoding = 'UTF-8'
+//    }
+
+    group = 'com.flexsoft.pp'
+    version '1.0-SNAPSHOT'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+
+    dependencies {
+
+    }
+}
